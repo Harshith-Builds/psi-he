@@ -1,0 +1,11 @@
+Service: 16384 registered numbers.  Client: 8 contacts.
+DLEQ proof verified: yes
+  +13065319325  REGISTERED   (truth: registered)
+  +14736720841  -   (truth: not registered)
+  +14729436862  REGISTERED   (truth: registered)
+  +13726098032  -   (truth: not registered)
+  +16968980386  REGISTERED   (truth: registered)
+  +13599238604  -   (truth: not registered)
+  +15276031964  -   (truth: not registered)
+  +15463412812  REGISTERED   (truth: registered)
+Upload 7.90387 MB, download 0.820817 MB

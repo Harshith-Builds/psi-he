@@ -1,0 +1,14 @@
+[PASS] encoding: (bin, value) is injective, values in range  (0.00338365 s)
+[PASS] cuckoo hashing: 1024 items placed exactly once (50 reps)  (0.00325247 s)
+[PASS] interpolation: members are roots, non-members are not  (0.0973275 s)
+[PASS] bin overflow is detected  (0.012945 s)
+[PASS] OPRF: correctness, blinding, DLEQ rejects bad keys/answers/proofs  (0.920988 s)
+    info: wrong slots out of 16384 at depth 5: t=2^54+... -> 16384, t=2^50-... -> 16384, chosen t -> 0
+[PASS] OpenFHE plaintext-modulus ceiling: chosen t exact, 55-bit t fails  (0.21991 s)
+[PASS] parameters: N matches bins, log2 Q within 128-bit HE-standard bound  (0.305597 s)
+[PASS] end-to-end (set T): 5 client-set shapes give the exact intersection  (6.29595 s)
+[PASS] masking fresh per query; flooding width >= noise + 40 + log2 N  (2.22025 s)
+    set A: flood width 2^125, noise 2^45.8203
+    set B: flood width 2^125, noise 2^45.8202
+[PASS] end-to-end with design parameters (sets A, B)  (20.6841 s)
+2080989/2080989 checks passed

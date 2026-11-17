@@ -1,0 +1,14 @@
+{
+"set": "C", "server_size": 65536, "client_size": 1024, "overlap": 256, "trials": 5,
+"params": {"N": 16384, "log2Q": 420, "maxLog2Q_128": 438, "t_bits": 49, "partitions": 1, "degree": 52, "powers": 6, "multDepth": 5, "keepTowers": 3, "towers": 7, "bins": 16384, "capacity": 52, "max_load": 29, "mean_load": 12},
+"offline": {"oprf_s": 2.20913, "hash_interpolate_s": 0.0952535},
+"setup": {"keygen_s": 0.0869535, "server_load_s": 0.0648536, "context_B": 851, "public_key_B": 1836441, "relin_key_B": 12849623},
+"online_median_s": {"client_cuckoo": 3.1353e-05, "client_decrypt_decode": 0.0214157, "client_encrypt_query": 0.107316, "client_oprf_blind": 0.069116, "client_oprf_verify_unblind": 0.22202, "online_total": 2.63318, "server_ct_mults": 46, "server_deserialize": 0.119185, "server_encode_masked_coeffs": 0.0734664, "server_oprf_eval_prove": 0.127209, "server_poly_eval": 0.0507111, "server_powers": 1.80311, "server_serialize": 0.000408715, "server_switch_flood": 0.034845},
+"online_min_s": {"online_total": 2.60148}, "online_max_s": {"online_total": 2.75763},
+"sizes_B": {"dleq_proof": 64, "he_query": 1.10189e+07, "he_response": 788041, "oprf_request": 32768, "oprf_response": 32832, "query_ct": 1.83649e+06, "response_ct": 788041},
+"noise": {"budget_before_switch_bits": 117.421, "log2Q_after_switch": 180, "log2_noise_before_flood": 45.8202, "log2_flood_width": 125, "log2_stat_distance_bound": -65.1798},
+"correctness": {"trials_correct": 5, "false_positives": 0, "false_negatives": 0},
+"baseline_plain": {"median_s": 0.000104204, "build_s": 0.0123493, "upload_B": 13312, "download_B": 128},
+"baseline_sha256": {"median_s": 0.000404814, "build_s": 0.0271564, "upload_B": 32768, "download_B": 128, "hashes_per_s": 2.41328e+06},
+"peak_rss_MB": 230.266, "threads": 2
+}

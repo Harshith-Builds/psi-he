@@ -1,0 +1,24 @@
+[A] |S|=1048576 |C|=1024 overlap=256 trials=5
+  offline: oprf 36.5132 s, hash+interp 1.42916 s, max bin load 256/320
+  trial 0: online 7.39757 s, powers 5.82679 s, poly 0.275479 s, correct=1
+  trial 1: online 7.01856 s, powers 5.48266 s, poly 0.288203 s, correct=1
+  trial 2: online 6.96065 s, powers 5.44245 s, poly 0.290914 s, correct=1
+  trial 3: online 7.05597 s, powers 5.49909 s, poly 0.294711 s, correct=1
+  trial 4: online 7.14615 s, powers 5.68608 s, poly 0.279358 s, correct=1
+  wrote results/A.json (5/5 trials correct)
+[B] |S|=1048576 |C|=1024 overlap=256 trials=5
+  offline: oprf 36.2399 s, hash+interp 0.770851 s, max bin load 249/320
+  trial 0: online 4.60389 s, powers 2.89371 s, poly 0.30482 s, correct=1
+  trial 1: online 4.23306 s, powers 2.57586 s, poly 0.294894 s, correct=1
+  trial 2: online 4.19256 s, powers 2.65704 s, poly 0.267368 s, correct=1
+  trial 3: online 4.30949 s, powers 2.67808 s, poly 0.288552 s, correct=1
+  trial 4: online 4.37835 s, powers 2.70631 s, poly 0.285187 s, correct=1
+  wrote results/B.json (5/5 trials correct)
+[C] |S|=65536 |C|=1024 overlap=256 trials=5
+  offline: oprf 2.20913 s, hash+interp 0.0952535 s, max bin load 29/52
+  trial 0: online 2.63318 s, powers 1.80002 s, poly 0.0531545 s, correct=1
+  trial 1: online 2.75763 s, powers 1.89911 s, poly 0.0568703 s, correct=1
+  trial 2: online 2.60148 s, powers 1.73407 s, poly 0.0507111 s, correct=1
+  trial 3: online 2.6148 s, powers 1.80311 s, poly 0.048139 s, correct=1
+  trial 4: online 2.72208 s, powers 1.84684 s, poly 0.0470877 s, correct=1
+  wrote results/C.json (5/5 trials correct)

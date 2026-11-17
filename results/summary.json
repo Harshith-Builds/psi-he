@@ -1,0 +1,182 @@
+[
+ {
+  "set": "C",
+  "S": 65536,
+  "N": 16384,
+  "log2Q": 420,
+  "max128": 438,
+  "part": "1x52",
+  "powers": 6,
+  "depth": 5,
+  "load": "29/52 (mean 12.0)",
+  "overflow": -44.263832524456646,
+  "online": 2.63318,
+  "online_min": 2.60148,
+  "online_max": 2.75763,
+  "mults": 46,
+  "server": 2.208935215,
+  "client": 0.41989905299999997,
+  "up": 11051668.0,
+  "down": 820873,
+  "qct": 1836490.0,
+  "rct": 788041,
+  "setup": {
+   "keygen_s": 0.0869535,
+   "server_load_s": 0.0648536,
+   "context_B": 851,
+   "public_key_B": 1836441,
+   "relin_key_B": 12849623
+  },
+  "offline": {
+   "oprf_s": 2.20913,
+   "hash_interpolate_s": 0.0952535
+  },
+  "noise": {
+   "budget_before_switch_bits": 117.421,
+   "log2Q_after_switch": 180,
+   "log2_noise_before_flood": 45.8202,
+   "log2_flood_width": 125,
+   "log2_stat_distance_bound": -65.1798
+  },
+  "corr": {
+   "trials_correct": 5,
+   "false_positives": 0,
+   "false_negatives": 0
+  },
+  "trials": 5,
+  "rss": 230.266,
+  "plain": {
+   "median_s": 0.000104204,
+   "build_s": 0.0123493,
+   "upload_B": 13312,
+   "download_B": 128
+  },
+  "sha": {
+   "median_s": 0.000404814,
+   "build_s": 0.0271564,
+   "upload_B": 32768,
+   "download_B": 128,
+   "hashes_per_s": 2413280.0
+  }
+ },
+ {
+  "set": "A",
+  "S": 1048576,
+  "N": 16384,
+  "log2Q": 420,
+  "max128": 438,
+  "part": "2x160",
+  "powers": 8,
+  "depth": 5,
+  "load": "256/320 (mean 192.0)",
+  "overflow": -42.09728091708946,
+  "online": 7.05597,
+  "online_min": 6.96065,
+  "online_max": 7.39757,
+  "mults": 152,
+  "server": 6.54880558,
+  "client": 0.453790562,
+  "up": 14724668.0,
+  "down": 1608912.0,
+  "qct": 1836490.0,
+  "rct": 788039,
+  "setup": {
+   "keygen_s": 0.0799732,
+   "server_load_s": 0.0645711,
+   "context_B": 851,
+   "public_key_B": 1836441,
+   "relin_key_B": 12849623
+  },
+  "offline": {
+   "oprf_s": 36.5132,
+   "hash_interpolate_s": 1.42916
+  },
+  "noise": {
+   "budget_before_switch_bits": 114.241,
+   "log2Q_after_switch": 180,
+   "log2_noise_before_flood": 45.8202,
+   "log2_flood_width": 125,
+   "log2_stat_distance_bound": -65.1798
+  },
+  "corr": {
+   "trials_correct": 5,
+   "false_positives": 0,
+   "false_negatives": 0
+  },
+  "trials": 5,
+  "rss": 671.598,
+  "plain": {
+   "median_s": 0.000221425,
+   "build_s": 0.376834,
+   "upload_B": 13312,
+   "download_B": 128
+  },
+  "sha": {
+   "median_s": 0.0007603,
+   "build_s": 0.62352,
+   "upload_B": 32768,
+   "download_B": 128,
+   "hashes_per_s": 1681700.0
+  }
+ },
+ {
+  "set": "B",
+  "S": 1048576,
+  "N": 16384,
+  "log2Q": 420,
+  "max128": 438,
+  "part": "4x80",
+  "powers": 7,
+  "depth": 5,
+  "load": "249/320 (mean 192.0)",
+  "overflow": -42.09728091708946,
+  "online": 4.30949,
+  "online_min": 4.19256,
+  "online_max": 4.60389,
+  "mults": 73,
+  "server": 3.82807172,
+  "client": 0.48147106,
+  "up": 12888168.0,
+  "down": 3184982.0,
+  "qct": 1836490.0,
+  "rct": 788038,
+  "setup": {
+   "keygen_s": 0.0801015,
+   "server_load_s": 0.0621518,
+   "context_B": 851,
+   "public_key_B": 1836441,
+   "relin_key_B": 12849623
+  },
+  "offline": {
+   "oprf_s": 36.2399,
+   "hash_interpolate_s": 0.770851
+  },
+  "noise": {
+   "budget_before_switch_bits": 117.238,
+   "log2Q_after_switch": 180,
+   "log2_noise_before_flood": 45.8202,
+   "log2_flood_width": 125,
+   "log2_stat_distance_bound": -65.1798
+  },
+  "corr": {
+   "trials_correct": 5,
+   "false_positives": 0,
+   "false_negatives": 0
+  },
+  "trials": 5,
+  "rss": 453.754,
+  "plain": {
+   "median_s": 0.000228564,
+   "build_s": 0.355435,
+   "upload_B": 13312,
+   "download_B": 128
+  },
+  "sha": {
+   "median_s": 0.00074782,
+   "build_s": 0.603521,
+   "upload_B": 32768,
+   "download_B": 128,
+   "hashes_per_s": 1737430.0
+  }
+ }
+]
